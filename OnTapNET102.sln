@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTapNET102", "OnTapNET102\OnTapNET102.csproj", "{282084C3-14FF-4908-9FA5-0CF5EA741A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuyenTapListVoiObj", "LuyenTapListVoiObj\LuyenTapListVoiObj.csproj", "{D5C23749-5EFC-4A89-9973-B0951A2E5DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282084C3-14FF-4908-9FA5-0CF5EA741A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282084C3-14FF-4908-9FA5-0CF5EA741A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282084C3-14FF-4908-9FA5-0CF5EA741A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282084C3-14FF-4908-9FA5-0CF5EA741A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C23749-5EFC-4A89-9973-B0951A2E5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C23749-5EFC-4A89-9973-B0951A2E5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C23749-5EFC-4A89-9973-B0951A2E5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C23749-5EFC-4A89-9973-B0951A2E5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78ACBE66-B648-4B3F-BD79-A4081E4D29D3}
+	EndGlobalSection
+EndGlobal
