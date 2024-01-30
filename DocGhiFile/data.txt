@@ -1,0 +1,6 @@
+
+Hổ|Ăn thịt|4
+Báo|Ăn thịt|4
+Cáo|Ăn quả|4
+Chồn|Ăn hạt dẻ|4
+Gà|Ăn thóc|2
