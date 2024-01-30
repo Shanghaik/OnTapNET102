@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DocGhiFile
 {
-    internal class DongVat
+    public class DongVat
     {
         public string Ten { get; set; }
         public string MoTa { get; set; }

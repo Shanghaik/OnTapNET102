@@ -13,11 +13,19 @@
                 new DongVat() {Ten = "Chồn", MoTa = "Ăn hạt dẻ", SoChan = 4},
                 new DongVat() {Ten = "Gà", MoTa = "Ăn thóc", SoChan = 2}
             };
-            // ghi vào file
-             TextServices.WriteDataToFile(@"dongvat.txt", dvs);
-            // đọc file
-            List<DongVat> dvs2 = TextServices.ReadFromFile(@"dongvat.txt");
-            foreach (var item in dvs2)
+            //// ghi vào file
+            // TextServices.WriteDataToFile(@"C:\Users\Acer\source\repos\OnTapNET102\DocGhiFile\data.txt", dvs);
+            //// đọc file
+            //List<DongVat> dvs2 = TextServices.ReadFromFile(@"C:\Users\Acer\source\repos\OnTapNET102\DocGhiFile\data.txt");
+            //foreach (var item in dvs2)
+            //{
+            //    item.InThongTin();
+            //}
+            // Ghi file xml
+            XMLServices<DongVat>.WriteToXMLFile("data.xml", dvs);
+            // đọc và in ra
+            var listXML = XMLServices<DongVat>.ReadFromXMLFile("data.xml");
+            foreach (var item in listXML)
             {
                 item.InThongTin();
             }
