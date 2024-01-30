@@ -22,10 +22,16 @@
             //    item.InThongTin();
             //}
             // Ghi file xml
-            XMLServices<DongVat>.WriteToXMLFile("data.xml", dvs);
-            // đọc và in ra
-            var listXML = XMLServices<DongVat>.ReadFromXMLFile("data.xml");
-            foreach (var item in listXML)
+            //XMLServices<DongVat>.WriteToXMLFile("data.xml", dvs);
+            //// đọc và in ra
+            //var listXML = XMLServices<DongVat>.ReadFromXMLFile("data.xml");
+            //foreach (var item in listXML)
+            //{
+            //    item.InThongTin();
+            //}
+            BinServices<DongVat>.WriteToBinFile("data.bin", dvs);
+            var listBin = BinServices<DongVat>.ReadFromBinFile("data.bin");
+            foreach (var item in listBin)
             {
                 item.InThongTin();
             }

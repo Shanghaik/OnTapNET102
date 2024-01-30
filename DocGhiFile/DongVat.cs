@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DocGhiFile
 {
+    [Serializable]
     public class DongVat
     {
         public string Ten { get; set; }
