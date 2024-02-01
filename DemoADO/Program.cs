@@ -6,7 +6,15 @@
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             ADOServices services = new ADOServices();
+            // services.AddNewSinhVien();
             var svData = services.GetAllSinhvien();
+            foreach (var item in svData)
+            {
+                item.InThongTin();
+            }
+            //services.SuaSinhVien();
+            services.XoaSinhVien();
+            svData = services.GetAllSinhvien();
             foreach (var item in svData)
             {
                 item.InThongTin();
